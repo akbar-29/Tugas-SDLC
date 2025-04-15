@@ -1,0 +1,218 @@
+.LOGOUT {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .LOGOUT .div {
+    background-color: #fdfffb;
+    overflow: hidden;
+    width: 430px;
+    height: 932px;
+    position: relative;
+  }
+  
+  .LOGOUT .overlap {
+    position: absolute;
+    width: 430px;
+    height: 162px; /* Adjusted height to match the visual */
+    top: -12px;
+    left: 0;
+    background-color: #18b93b;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .LOGOUT .logo {
+    /* Anda mungkin perlu menyesuaikan ukuran dan posisi logo jika berbeda */
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #ffffff; /* Assuming a white circle behind the logo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .LOGOUT .logo img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+  
+  .LOGOUT .text-wrapper {
+    font-family: "Inknut Antiqua", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .LOGOUT .text-wrapper-2 {
+    font-family: "Inknut Antiqua", Helvetica;
+    font-weight: 400;
+    color: #ffffff; /* Assuming "IKJ" is white */
+    font-size: 16px; /* Adjusted font size based on visual */
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .LOGOUT .overlap-2 {
+    position: absolute;
+    width: 430px; /* Adjusted width to match .div */
+    height: 139px;
+    bottom: 0; /* Placed at the bottom */
+    left: 0;
+    background-color: #f0f0f0; /* Placeholder for bottom navigation background */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  .LOGOUT .rectangle {
+    /* Ini mungkin tidak diperlukan untuk tampilan yang Anda berikan */
+    display: none;
+  }
+  
+  .LOGOUT .rectangle-2 {
+    /* Ini mungkin tidak diperlukan untuk tampilan yang Anda berikan */
+    display: none;
+  }
+  
+  .LOGOUT .kertas,
+  .LOGOUT .jkl,
+  .LOGOUT .element {
+    width: 40px; /* Adjusted size for navigation icons */
+    height: 40px;
+    object-fit: contain; /* Or cover, depending on your icons */
+    border-radius: 50%;
+    background-color: #6ffd59; /* Placeholder for icon background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px; /* Example icon size */
+    color: #555;
+  }
+  
+  /* Anda perlu mengganti ini dengan ikon atau gambar yang sesuai */
+  .LOGOUT .kertas::before {
+    content: '☰'; /* Example list icon */
+  }
+  
+  .LOGOUT .jkl::before {
+    content: '🏠'; /* Example home icon */
+  }
+  
+  .LOGOUT .element::before {
+    content: '👤'; /* Example profile icon */
+  }
+  
+  .LOGOUT .overlap-3 {
+    position: absolute;
+    width: 150px; /* Adjusted size for profile icon */
+    height: 150px;
+    top: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .LOGOUT .overlap-3::before {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #000;
+    position: absolute;
+    top: 20px;
+  }
+  
+  .LOGOUT .overlap-3::after {
+    content: '';
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid transparent;
+    position: absolute;
+    bottom: 20px;
+  }
+  
+  .LOGOUT .img {
+    /* Ini mungkin tidak diperlukan karena ikon profil dibuat dengan CSS */
+    display: none;
+  }
+  
+  .LOGOUT .text-wrapper-3 {
+    top: 174px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Inika", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    position: absolute;
+    font-size: 24px; /* Adjusted font size */
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
+  .LOGOUT .text-wrapper-4 {
+    position: absolute;
+    top: 521px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Inika", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px; /* Adjusted font size */
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
+  .LOGOUT .div-wrapper {
+    position: absolute;
+    width: 158px;
+    height: 61px;
+    top: 562px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; /* Optional: Add some rounded corners */
+  }
+  
+  .LOGOUT .text-wrapper-5 {
+    width: auto; /* Adjust width to content */
+    top: auto;
+    left: auto;
+    font-family: "Inknut Antiqua", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px; /* Adjusted font size */
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap; /* Prevent text wrapping */
+  }

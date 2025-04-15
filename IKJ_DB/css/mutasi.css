@@ -1,0 +1,149 @@
+/* /css/mutasi.css */
+
+.MUTASI {
+    background-color: #f0f0f0; /* Warna latar belakang luar container */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh; /* Ensure full viewport height */
+    align-items: center; /* Center vertically */
+}
+
+.MUTASI .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 430px;
+    height: auto; /* Biarkan tinggi menyesuaikan konten */
+    position: relative;
+    border-radius: 19px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Enable flexbox for content alignment */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally within .div */
+}
+
+.MUTASI .overlap-group {
+    position: relative; /* Make it a positioning context for absolute elements inside */
+    width: 100%; /* Occupy full width of .div */
+    height: 174px;
+    background-color: #18b93b;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-between; /* Distribute logo and text */
+    align-items: center;
+    padding: 0 20px; /* Add some padding on the sides */
+}
+
+.MUTASI .overlap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center logo and text vertically */
+}
+
+.MUTASI .overlap-group .overlap .logo { /* Targetkan logo di dalam struktur header */
+    width: 70px; /* Sama seperti di dashboard */
+    height: 70px; /* Sama seperti di dashboard */
+    object-fit: cover;
+}
+
+.MUTASI .text-wrapper {
+    font-family: "Inknut Antiqua", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px; /* Reduced font size */
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 5px; /* Add some space between logo and text */
+}
+
+.MUTASI .text-wrapper-2 {
+    font-family: "Inknut Antiqua", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.MUTASI .kl {
+    width: 200px; /* Reduced globe size */
+    height: 200px; /* Reduced globe size */
+    object-fit: contain; /* Use contain to fit within the bounds */
+    position: relative; /* Remove absolute positioning for better flow */
+    margin: 20px auto; /* Center horizontally and add some vertical margin */
+}
+
+.MUTASI .text-wrapper-3 {
+    font-family: "Inika", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 20px; /* Add some top margin */
+    align-self: flex-start; /* Align text to the left */
+    margin-left: 20px;
+}
+
+.MUTASI .no-mutation-text {
+    font-family: sans-serif; /* Or any other font */
+    font-size: 16px;
+    color: #555;
+    text-align: center; /* Center the text */
+    margin-top: 30px; /* Add some top margin */
+}
+
+.MUTASI .mutasi-list {
+    width: 90%; /* Adjust width of the list */
+    margin: 20px auto; /* Center the list */
+}
+
+.MUTASI .mutasi-item {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.MUTASI .mutasi-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Bottom Navigation Styles */
+.MUTASI .bottom-section { /* Perbaiki selector */
+    background-color: #3de427; /* Warna hijau muda */
+    width: 100%;
+    padding: 10px 0; /* Kurangi padding atas dan bawah */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around; /* Distribusi ikon */
+    align-items: center;
+    z-index: 100;
+}
+
+.MUTASI .bottom-icon-link {
+    display: flex;
+    flex-direction: column; /* Mengatur ikon di atas teks */
+    align-items: center; /* Membuat ikon dan teks berada di tengah horizontal */
+    text-decoration: none;
+    color: blue; /* Warna teks biru (sesuaikan jika perlu) */
+}
+
+.MUTASI .bottom-icon { /* Perbaiki selector */
+    width: auto; /* Biarkan lebar menyesuaikan aspek rasio */
+    height: 30px; /* Atur tinggi ikon */
+    object-fit: contain; /* Agar seluruh ikon terlihat */
+    margin-bottom: 5px; /* Jarak antara ikon dan teks */
+}
+
+.MUTASI .bottom-text { /* Perbaiki selector */
+    font-family: "Inika-Regular", Helvetica, sans-serif; /* Sesuaikan font */
+    font-size: 12px; /* Ukuran teks (sesuaikan jika perlu) */
+    color: blue; /* Warna teks biru (sesuaikan jika perlu) */
+}

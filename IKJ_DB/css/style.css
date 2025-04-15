@@ -1,0 +1,190 @@
+.awal {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.awal .div {
+  background-color: #ffffff;
+  width: 430px;
+  height: 932px;
+  position: relative;
+}
+
+.awal .overlap-group {
+  position: absolute;
+  width: 339px;
+  height: 399px;
+  top: 41px;
+  left: 24px;
+}
+
+.awal .keluarga {
+  position: absolute;
+  width: 293px;
+  height: 293px;
+  top: 106px;
+  left: 46px;
+  object-fit: cover;
+}
+
+.awal .logo {
+  position: absolute;
+  width: 84px;
+  height: 97px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.awal .text-wrapper {
+  position: absolute;
+  top: 62px;
+  left: 24px;
+  font-family: "Inknut Antiqua-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* EMAIL */
+.awal .overlap {
+  position: absolute;
+  width: 297px;
+  height: 60px;
+  top: 477px;
+  left: 66px;
+}
+
+.awal .rectangle {
+  width: 297px;
+  height: 43px;
+  top: 16px;
+  background-color: #ffffff;
+  border: 1px solid #84f59c;
+  position: absolute;
+  left: 0;
+}
+
+.awal .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 13px;
+  font-family: "Inika-Bold", Helvetica;
+  font-weight: 700;
+  color: #0047bb;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* INPUT EMAIL & PASSWORD */
+.awal input[type="email"],
+.awal input[type="password"] {
+  position: absolute;
+  width: 285px;
+  height: 35px;
+  top: 20px;
+  left: 6px;
+  border: none;
+  background-color: transparent;
+  font-family: "Inika-Regular", Helvetica;
+  font-size: 14px;
+  color: #000;
+  outline: none;
+}
+
+/* PASSWORD */
+.awal .overlap-2 {
+  position: absolute;
+  width: 297px;
+  height: 60px;
+  top: 554px;
+  left: 66px;
+}
+
+/* “Lupa Password?” */
+.awal .text-wrapper-5 {
+  position: absolute;
+  top: 621px;
+  left: 258px;
+  font-family: "Inika-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* “Belum punya akun?” */
+.awal .text-wrapper-6 {
+  position: absolute;
+  top: 764px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Inika-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+}
+
+/* TOMBOL MASUK */
+.awal .overlap-3 {
+  position: absolute;
+  width: 295px;
+  height: 61px;
+  top: 686px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.awal .btn-login {
+  display: flex;
+  width: 295px;
+  height: 61px;
+  background-color: #009f22;
+  border: none;
+  cursor: pointer;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-size: 14px;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* Tambahkan ini untuk menghilangkan garis bawah link */
+}
+
+/* Teks di tombol masuk */
+/* Tidak perlu selector terpisah jika sudah diatur di .btn-login */
+
+/* TOMBOL DAFTAR */
+.awal .overlap-4 {
+  position: absolute;
+  width: 295px;
+  height: 61px;
+  top: 793px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.awal .rectangle-3 {
+  width: 295px;
+  height: 61px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* Teks di tombol daftar (sudah benar) */
+.awal .text-wrapper-8 {
+  color: #ffffff;
+}

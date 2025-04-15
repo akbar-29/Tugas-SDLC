@@ -1,0 +1,149 @@
+/* style.css */
+.DHASBORD {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh; /* Agar mengisi seluruh tinggi layar */
+}
+
+.DHASBORD .div {
+    background-color: #ffffff;
+    width: 430px;
+    max-width: 100%; /* Agar responsif di layar kecil */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center konten secara horizontal */
+    /* height: auto; /* Biarkan tinggi menyesuaikan konten */
+}
+
+/* Header */
+.DHASBORD .header-container {
+    background: linear-gradient(#18b93b 70%, #0047bb); /* Contoh gradient */
+    color: white;
+    padding: 20px;
+    border-radius: 19px;
+    width: 95%; /* Sesuaikan lebar */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DHASBORD .logo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.DHASBORD .welcome-text {
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.DHASBORD .user-text {
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.DHASBORD .status-text {
+    font-family: "Inika-Regular", Helvetica;
+    font-size: 12px;
+    text-align: center;
+}
+
+.DHASBORD .wallet-card {
+    background-color: #0047bb;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+    width: 90%;
+    text-align: center;
+}
+
+.DHASBORD .wallet-title {
+    font-size: 14px;
+}
+
+.DHASBORD .wallet-balance {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Daftar Menu */
+.DHASBORD .menu-title {
+    font-family: "Inika-Bold", Helvetica;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 20px;
+    align-self: flex-start; /* Align ke kiri */
+    margin-left: 20px;
+}
+
+.DHASBORD .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 kolom */
+    gap: 10px;
+    padding: 15px;
+    width: 95%;
+}
+
+.DHASBORD .menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.DHASBORD .menu-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.DHASBORD .menu-text {
+    font-family: "Inika-Regular", Helvetica;
+    font-size: 11px;
+    color: #000000;
+}
+
+/* Bagian Bawah */
+.DHASBORD .bottom-section {
+    background-color: #3de427; /* Warna hijau muda */
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around; /* Distribusi ikon */
+    align-items: center;
+    position: relative; /* Penting untuk positioning absolute .btn-mutasi */
+}
+
+.DHASBORD .bottom-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.DHASBORD .bottom-section .btn-mutasi { /* Lebih spesifik */
+    position: absolute;
+    top: 50%; /* Tengah vertikal */
+    left: 50%; /* Tengah horizontal */
+    transform: translate(-50%, -50%); /* Menggeser elemen sebesar setengah lebarnya dan tingginya */
+    width: 40px; /* Sesuaikan dengan lebar ikon */
+    height: 40px; /* Sesuaikan dengan tinggi ikon */
+    z-index: 1; /* Pastikan tautan berada di atas ikon */
+    background-color: transparent; /* Agar ikon tetap terlihat */
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    line-height: 40px; /* Jika ada teks di dalamnya */
+    text-align: center; /* Jika ada teks di dalamnya */
+}

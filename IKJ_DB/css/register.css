@@ -1,0 +1,125 @@
+/* Container utama */
+.register {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    width: 430px;
+    max-width: 90%;
+    position: relative;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 84px;
+    height: 97px;
+    object-fit: cover;
+  }
+  
+  .brand-name {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  /* Form Header */
+  .form-header {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .form-header h2 {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0047bb;
+    margin-bottom: 8px;
+  }
+  
+  .form-header p {
+    font-family: "Inika", serif;
+    font-size: 14px;
+    color: #000000cf;
+  }
+  
+  /* Form Style */
+  .form-register {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 30px;
+  }
+  
+  /* Form Group */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-family: "Inika", serif;
+    font-weight: 700;
+    color: #0047bb;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  .form-group input {
+    height: 40px;
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #84f59c;
+    border-radius: 4px;
+    font-family: "Inika", serif;
+    color: #000000;
+  }
+  
+  /* Button Style */
+  .btn-register,
+  .btn-login {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .btn-register {
+    background-color: #009f22;
+    color: #ffffff;
+  }
+  
+  .btn-login {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  /* Already have account text */
+  .already-have-account {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Inika", serif;
+    font-size: 14px;
+    color: #000000;
+  }
+  
